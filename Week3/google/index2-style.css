@@ -1,5 +1,5 @@
 body {
-    background-color: #4f5158;
+    background-color: #202124;
 }
 
 /* The old way of doig horizontal layout
@@ -28,4 +28,12 @@ ul{
 header{
     display: flex;
     justify-content: space-between;
+}
+button{
+    padding: .5rem 1rem;
+    background-color:#303134; 
+    border-radius: 4px;
+    color:#e8eaed;
+    cursor: pointer;
+    border: 1px solid #303134;
 }
