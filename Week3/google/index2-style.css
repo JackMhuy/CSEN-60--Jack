@@ -1,5 +1,5 @@
 body {
-    background-color: #202124;
+    background-color: #ffffff;
 }
 
 /* The old way of doig horizontal layout
@@ -11,15 +11,16 @@ li{
 /*The new way of doing horizontal layout*/
 html{
     font-family: sans-serif;
+    font-size: smaller;
 }
 a{
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
 
 ul{
-    color:rgb(255, 255, 255) ;
+    color: ;
     display: flex;
     flex-direction: row; /*by default, display: flex firection row*/
     list-style-type: none;
@@ -29,11 +30,25 @@ header{
     display: flex;
     justify-content: space-between;
 }
+footer{
+    display: flex;
+    justify-content: space-between;
+
+}
 button{
     padding: .5rem 1rem;
-    background-color:#303134; 
+    background-color:#f8f9fa; 
     border-radius: 4px;
-    color:#e8eaed;
+    color:#3c4043;
     cursor: pointer;
-    border: 1px solid #303134;
+    border: 1px solid #f8f9fa;
+    font-size: 14px;
+    padding: 10px 16px;
+    
+}
+
+#climate-message{
+    display: flex;
+    gap: 1em;
+    align-items: center;
 }
