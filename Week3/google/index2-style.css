@@ -1,5 +1,8 @@
 body {
-    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
 }
 
 /* The old way of doig horizontal layout
