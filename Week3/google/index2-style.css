@@ -1,5 +1,7 @@
 body {
-    background-color: #ffffff;
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+    height: 100vh;
 }
 
 /* The old way of doig horizontal layout
