@@ -1,4 +1,4 @@
-
+//this code runs synchronously 
 function showData() {
     console.log("show data function finish")
 }
