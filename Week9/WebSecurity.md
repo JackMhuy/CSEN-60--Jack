@@ -42,10 +42,10 @@
 against SQL injection
 </ul>
 
-### Distributed Denial of Service(DDoS)
+## Distributed Denial of Service(DDoS)
 <p>Overwhelm a server with malicious requests to block regular users
 
-### DDoS Mitigation
+## DDoS Mitigation
 <ul>
 <li>Rate limiting
 <ul>
@@ -68,7 +68,7 @@ volume
 </ul>
 </ul>
 
-### Encryption
+## Encryption
 <ul>
 <li>Ensures privacy within an organization and on the
 Internet
@@ -76,7 +76,7 @@ Internet
 called ciphertext
 </ul>
 
-### Decryption
+## Decryption
 <ul>
 <li>The process of converting the ciphertext back into its
 original form, called plaintext or cleartext, so it can be
